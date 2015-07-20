@@ -12,6 +12,7 @@ import org.opencv.imgproc.Imgproc;
 public class MainActivity extends ActionBarActivity {
 
     static {
+        // If you use opencv 2.4, System.loadLibrary("opencv_java")
         System.loadLibrary("opencv_java3");
     }
 
